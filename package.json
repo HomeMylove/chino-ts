@@ -1,0 +1,38 @@
+{
+  "name": "chino",
+  "version": "1.0.0",
+  "description": "This is a QQ robot based on node.js and TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HomeMylove/chino-ts.git"
+  },
+  "keywords": [
+    "chino"
+  ],
+  "author": "HomeMylove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HomeMylove/chino-ts/issues"
+  },
+  "homepage": "https://github.com/HomeMylove/chino-ts#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.38",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5"
+  }
+}
