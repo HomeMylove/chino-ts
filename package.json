@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a QQ robot based on node.js and TypeScript.",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "start",
     "start:build": "tsc -w",
@@ -32,6 +33,8 @@
   "dependencies": {
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.21",
+    "axios": "^0.27.2",
     "concurrently": "^7.2.1",
     "cors": "^2.8.5"
   }
